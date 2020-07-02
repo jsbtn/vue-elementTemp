@@ -15,7 +15,7 @@ export function loginAdmin(data) {
 }
 
 // app账号登录
-export function Login(data) {
+export function login(data) {
   return request({
     url: '/api/login',
     method: 'post',
